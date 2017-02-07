@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+#about {
+  background-color: #A9A9A9;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+}
+
+#aHeader {
+    position: relative;
+    background-color: #CAEBF2;
+    width: 16%;
+    margin: auto;
+    top: 10px;
+    height: 28%;
+}
+
+#aHeader > h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  color: #A9A9A9;
+  font-family: Impact;
+}
+
+#about > img {
+  position: relative;
+  display: block;
+  max-height: 70%;
+  margin: 0;
+  left:  40px;
+
+}
+
+#topBanner {
+  background-color: #EFEFEF;
+  width: 100%;
+  height: 120px;
+}
+
+#topBanner > p {
+  margin: 0;
+}
+
+#topBanner > img{
+  position: relative;
+  top: 10px;
+  max-height: 85%;
+  display: block;
+  margin: auto;
+}
