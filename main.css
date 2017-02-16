@@ -5,14 +5,14 @@ html, body {
 }
 
 #about {
-  background-color: #A9A9A9;
+  background-color: #00a89e;
   width: 100%;
   height: 450px;
 }
 
 #mHeader {
   position: relative;
-  background-color: #CAEBF2;
+  background-color: #93c556;
   width: 16%;
   margin: auto;
   top: 10px;
@@ -24,18 +24,18 @@ html, body {
   text-align: center;
   margin: 0;
   font-size: 50px;
-  color: #A9A9A9;
+  color: #5d514a;
   font-family: Impact;
 }
 
 #menu {
-  background-color: #A7A7A7;
+  background-color: #5d514a;
   width: 100%;
   height: 600px;
 }
 
 #faq {
-  background-color: #A7A7A7;
+  background-color: #93c556;
   width: 100%;
   height: 400px;
   margin-top: 7px;
@@ -43,20 +43,27 @@ html, body {
 
 #fwrapper > p {
   text-indent: 150px;
-  color: #ffffff;
+  color: #3d281b;
+  font-family: Calibri;
+  font-size: 1.4em;
+  margin:0;
 }
 
 #cwrapper > p {
   text-indent: 250px;
-  color: #ffffff;
+  color: #3d281b;
+  font-size: 1.6em;
+  margin: 0;
+  font-family: Calibri;
 }
+
 #fHeader {
   position: relative;
-  background-color: #CAEBF2;
+  background-color: #00a89e;
   width: 16%;
   margin: auto;
   top: 10px;
-  height: 55px;
+  height: 50px;
   margin-top: 7px;
 }
 
@@ -64,7 +71,7 @@ html, body {
   text-align: center;
   margin: 0;
   font-size: 50px;
-  color: #A9A9A9;
+  color: #93c556;
   font-family: Impact;
 }
 
@@ -86,9 +93,17 @@ html, body {
   text-align: center;
   color: #ffffff;
 }
+#menuList > div > h1 {
+  font-family: Impact;
+}
+
+#menuList > div > p {
+  font-family: Calibri;
+}
+
 #aHeader {
     position: relative;
-    background-color: #CAEBF2;
+    background-color: #5d514a;
     width: 16%;
     margin: auto;
     top: 10px;
@@ -99,13 +114,13 @@ html, body {
   text-align: center;
   margin: 0;
   font-size: 50px;
-  color: #A9A9A9;
+  color: #00a89e;
   font-family: Impact;
 }
 
 #cHeader {
     position: relative;
-    background-color: #CAEBF2;
+    background-color: #00a89e;
     width: 28%;
     margin: auto;
     top: 10px;
@@ -117,7 +132,7 @@ html, body {
   text-align: center;
   margin: 0;
   font-size: 50px;
-  color: #A9A9A9;
+  color: #93c556;
   font-family: Impact;
 }
 #about > img {
@@ -130,16 +145,17 @@ html, body {
 }
 
 #about > div > p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   position: relative;
   display: inline-block;
-  font-family: cursive;
+  font-family: Calibri;
   left: 800px;
   top: -350px;
+  color: #3d281b;
 }
 
 #topBanner {
-  background-color: #EFEFEF;
+  background-color: #ffffff;
   width: 100%;
   height: 200px;
 }
@@ -160,4 +176,15 @@ html, body {
   background-color: #EFEFEF;
   width: 100%;
   height: 50px;
+  margin: 0;
+  margin-top: 7px;
+}
+
+#bottomBanner > p {
+  margin: 0;
+  text-align: center;
+  font-family: Impact;
+  color: #3d281b;
+  font-size: 1.7em;
+  margin-top: 10px;
 }
